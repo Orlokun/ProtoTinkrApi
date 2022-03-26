@@ -1,0 +1,12 @@
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\bin\Debug\net5.0\TinkrCommon.deps.json
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\bin\Debug\net5.0\TinkrCommon.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\bin\Debug\net5.0\TinkrCommon.pdb
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\obj\Debug\net5.0\TinkrCommon.csproj.AssemblyReference.cache
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\obj\Debug\net5.0\TinkrCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\obj\Debug\net5.0\TinkrCommon.AssemblyInfoInputs.cache
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\obj\Debug\net5.0\TinkrCommon.AssemblyInfo.cs
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\obj\Debug\net5.0\TinkrCommon.csproj.CoreCompileInputs.cache
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\obj\Debug\net5.0\TinkrCommon.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\obj\Debug\net5.0\refint\TinkrCommon.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\obj\Debug\net5.0\TinkrCommon.pdb
+C:\Users\oguer\Documents\WS\Tinkr\TinkrCommon\src\TinkrCommon\obj\Debug\net5.0\ref\TinkrCommon.dll

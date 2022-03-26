@@ -1,0 +1,12 @@
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\bin\Debug\net5.0\TinkrCatalogContracts.deps.json
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\bin\Debug\net5.0\TinkrCatalogContracts.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\bin\Debug\net5.0\TinkrCatalogContracts.pdb
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\obj\Debug\net5.0\TinkrCatalogContracts.csproj.AssemblyReference.cache
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\obj\Debug\net5.0\TinkrCatalogContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\obj\Debug\net5.0\TinkrCatalogContracts.AssemblyInfoInputs.cache
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\obj\Debug\net5.0\TinkrCatalogContracts.AssemblyInfo.cs
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\obj\Debug\net5.0\TinkrCatalogContracts.csproj.CoreCompileInputs.cache
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\obj\Debug\net5.0\TinkrCatalogContracts.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\obj\Debug\net5.0\refint\TinkrCatalogContracts.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\obj\Debug\net5.0\TinkrCatalogContracts.pdb
+C:\Users\oguer\Documents\WS\Tinkr\TinkrItemCatalog\src\TinkrCatalogContracts\obj\Debug\net5.0\ref\TinkrCatalogContracts.dll
