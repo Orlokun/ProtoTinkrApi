@@ -15,8 +15,7 @@ namespace TinkrCommon.MassTransit
         {
             services.AddMassTransit(configure =>
             {
-                var t = typeof(int);
-                configure.AddConsumers(Assembly.GetAssembly(t));
+                configure.AddConsumers(Assembly.GetEntryAssembly());
                 configure.UsingRabbitMq((context, configurator) =>
                 {
                     var configuration = context.GetService<IConfiguration>();

@@ -23,10 +23,7 @@ namespace TinkerInventoryService.Consumers
             {
                 return;
             }
-            else
-            {
-                await _repository.DeleteAsync(message.itemId);
-            }
+            await _repository.DeleteAsync(message.itemId);
         }
     }
 }
