@@ -26,7 +26,7 @@ namespace TinkrCommon.MassTransit
                         new KebabCaseEndpointNameFormatter(serviceSettings.ServiceName, false));
                 });
             });
-
+            services.AddMassTransitHostedService();
             return services;
         }
     }

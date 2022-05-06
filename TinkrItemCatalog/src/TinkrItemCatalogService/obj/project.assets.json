@@ -721,7 +721,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "TinkrCommon/1.0.1": {
+      "TinkrCommon/1.0.2": {
         "type": "package",
         "dependencies": {
           "MassTransit": "7.3.1",
@@ -2034,14 +2034,14 @@
         "version.txt"
       ]
     },
-    "TinkrCommon/1.0.1": {
-      "sha512": "TB1XsAOwMVaq1OCmRT7rx5Qbt2AFwsoEVt9NUZUo2UOikX+W2IWLOCzaMAwtmKxbePzigKQwRBp7yopWbNRJLg==",
+    "TinkrCommon/1.0.2": {
+      "sha512": "2DCgs09I+YcNk02Idr7yqFwDMwaQ9GZj3XUzxVxH8VGjQRp2hVX1RsDM75EIYl6Ib4FVa8cLK3vhYZbZCnOwfw==",
       "type": "package",
-      "path": "tinkrcommon/1.0.1",
+      "path": "tinkrcommon/1.0.2",
       "files": [
         ".nupkg.metadata",
         "lib/net5.0/TinkrCommon.dll",
-        "tinkrcommon.1.0.1.nupkg.sha512",
+        "tinkrcommon.1.0.2.nupkg.sha512",
         "tinkrcommon.nuspec"
       ]
     },
@@ -2053,14 +2053,11 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "MassTransit >= 7.3.1",
-      "MassTransit.AspNetCore >= 7.3.1",
-      "MassTransit.RabbitMQ >= 7.3.1",
       "Microsoft.Extensions.Http.Polly >= 6.0.3",
       "MongoDB.Driver >= 2.15.0",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "TinkrCatalogContracts >= 1.0.0",
-      "TinkrCommon >= 1.0.1"
+      "TinkrCommon >= 1.0.2"
     ]
   },
   "packageFolders": {
@@ -2107,18 +2104,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "MassTransit": {
-            "target": "Package",
-            "version": "[7.3.1, )"
-          },
-          "MassTransit.AspNetCore": {
-            "target": "Package",
-            "version": "[7.3.1, )"
-          },
-          "MassTransit.RabbitMQ": {
-            "target": "Package",
-            "version": "[7.3.1, )"
-          },
           "Microsoft.Extensions.Http.Polly": {
             "target": "Package",
             "version": "[6.0.3, )"
@@ -2133,7 +2118,7 @@
           },
           "TinkrCommon": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.2, )"
           }
         },
         "imports": [

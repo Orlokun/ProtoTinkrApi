@@ -1627,7 +1627,7 @@
     "C:\\Users\\oguer\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "restore": {
       "projectUniqueName": "C:\\Users\\oguer\\Documents\\WS\\Tinkr\\TinkrCommon\\src\\TinkrCommon\\TinkrCommon.csproj",
       "projectName": "TinkrCommon",
