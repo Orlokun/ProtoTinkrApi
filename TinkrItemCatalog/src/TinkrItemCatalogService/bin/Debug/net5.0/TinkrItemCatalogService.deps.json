@@ -37,7 +37,7 @@
           "MongoDB.Driver": "2.15.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "TinkrCatalogContracts": "1.0.0",
-          "TinkrCommon": "1.0.2",
+          "TinkrCommon": "1.0.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -928,7 +928,7 @@
       },
       "System.Threading.Channels/4.7.1": {},
       "System.ValueTuple/4.5.0": {},
-      "TinkrCommon/1.0.2": {
+      "TinkrCommon/1.0.3": {
         "dependencies": {
           "MassTransit": "7.3.1",
           "MassTransit.AspNetCore": "7.3.1",
@@ -2953,12 +2953,12 @@
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
-    "TinkrCommon/1.0.2": {
+    "TinkrCommon/1.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2DCgs09I+YcNk02Idr7yqFwDMwaQ9GZj3XUzxVxH8VGjQRp2hVX1RsDM75EIYl6Ib4FVa8cLK3vhYZbZCnOwfw==",
-      "path": "tinkrcommon/1.0.2",
-      "hashPath": "tinkrcommon.1.0.2.nupkg.sha512"
+      "sha512": "sha512-6XJUUhf6+g8LaGefxjn6k2/X9mwrPjfYzEtnpfqzifJYX6mJB7cJqIcNz8FYSzFVt5901tj7wW3pAknwlXw3Ag==",
+      "path": "tinkrcommon/1.0.3",
+      "hashPath": "tinkrcommon.1.0.3.nupkg.sha512"
     },
     "TinkrCatalogContracts/1.0.0": {
       "type": "project",

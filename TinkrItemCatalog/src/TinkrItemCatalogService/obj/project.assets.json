@@ -721,7 +721,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "TinkrCommon/1.0.2": {
+      "TinkrCommon/1.0.3": {
         "type": "package",
         "dependencies": {
           "MassTransit": "7.3.1",
@@ -2034,14 +2034,14 @@
         "version.txt"
       ]
     },
-    "TinkrCommon/1.0.2": {
-      "sha512": "2DCgs09I+YcNk02Idr7yqFwDMwaQ9GZj3XUzxVxH8VGjQRp2hVX1RsDM75EIYl6Ib4FVa8cLK3vhYZbZCnOwfw==",
+    "TinkrCommon/1.0.3": {
+      "sha512": "6XJUUhf6+g8LaGefxjn6k2/X9mwrPjfYzEtnpfqzifJYX6mJB7cJqIcNz8FYSzFVt5901tj7wW3pAknwlXw3Ag==",
       "type": "package",
-      "path": "tinkrcommon/1.0.2",
+      "path": "tinkrcommon/1.0.3",
       "files": [
         ".nupkg.metadata",
         "lib/net5.0/TinkrCommon.dll",
-        "tinkrcommon.1.0.2.nupkg.sha512",
+        "tinkrcommon.1.0.3.nupkg.sha512",
         "tinkrcommon.nuspec"
       ]
     },
@@ -2057,7 +2057,7 @@
       "MongoDB.Driver >= 2.15.0",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "TinkrCatalogContracts >= 1.0.0",
-      "TinkrCommon >= 1.0.2"
+      "TinkrCommon >= 1.0.3"
     ]
   },
   "packageFolders": {
@@ -2118,7 +2118,7 @@
           },
           "TinkrCommon": {
             "target": "Package",
-            "version": "[1.0.2, )"
+            "version": "[1.0.3, )"
           }
         },
         "imports": [

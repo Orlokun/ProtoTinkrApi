@@ -1,5 +1,6 @@
 using System;
 using System.Reflection;
+using GreenPipes;
 using MassTransit;
 using MassTransit.Definition;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,6 +25,10 @@ namespace TinkrCommon.MassTransit
                     configurator.Host(rabbitMqSettings.Host);
                     configurator.ConfigureEndpoints(context,
                         new KebabCaseEndpointNameFormatter(serviceSettings.ServiceName, false));
+                    configurator.UseMessageRetry(retryConfigurator =>
+                    {
+                        retryConfigurator.Interval(3, TimeSpan.FromSeconds(5));
+                    });
                 });
             });
             services.AddMassTransitHostedService();

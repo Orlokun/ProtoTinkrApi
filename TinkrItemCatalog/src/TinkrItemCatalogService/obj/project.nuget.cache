@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bvNHbo7rPraoTNWo92qwwznireYj+YAvREXonLRtwWTfj7Vv+DrUhzqWDBAO6hEdsvy+o8OSdHfjPaEv1mpoNA==",
+  "dgSpecHash": "aTSCqMYpTAq+ROq11HBVeCByU4lKa+glGKl+MXrXrCTqRD1jTgcmUtK/X1a5yJNXL0zH7HRsKL2NKUgRN4gK/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\oguer\\Documents\\WS\\Tinkr\\TinkrItemCatalog\\src\\TinkrItemCatalogService\\TinkrItemCatalogService.csproj",
   "expectedPackageFiles": [
@@ -56,7 +56,7 @@
     "C:\\Users\\oguer\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512",
     "C:\\Users\\oguer\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
     "C:\\Users\\oguer\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\oguer\\.nuget\\packages\\tinkrcommon\\1.0.2\\tinkrcommon.1.0.2.nupkg.sha512",
+    "C:\\Users\\oguer\\.nuget\\packages\\tinkrcommon\\1.0.3\\tinkrcommon.1.0.3.nupkg.sha512",
     "C:\\Users\\oguer\\.nuget\\packages\\tinkrcatalogcontracts\\1.0.0\\tinkrcatalogcontracts.1.0.0.nupkg.sha512"
   ],
   "logs": []

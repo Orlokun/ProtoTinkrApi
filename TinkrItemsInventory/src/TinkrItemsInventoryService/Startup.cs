@@ -17,6 +17,7 @@ namespace TinkrItemsInventoryService
 {
     public class Startup
     {
+        private const string AllowedOriginSetting = "AllowedOrigin";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -47,6 +48,12 @@ namespace TinkrItemsInventoryService
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TinkrInventoryService v1"));
+                app.UseCors(builder =>
+                {
+                    builder.WithOrigins(Configuration[AllowedOriginSetting])
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
             }
 
             app.UseHttpsRedirection();
