@@ -9,6 +9,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using Tinkr.Identity.Service.Entities;
+using Tinkr.Identity.Service.Settings;
 using TinkrCommon.Settings;
 
 namespace Tinkr.Identity.Service
@@ -28,15 +29,27 @@ namespace Tinkr.Identity.Service
             BsonSerializer.RegisterSerializer(new GuidSerializer(BsonType.String));
             var serviceSettings = Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
             var mongoDbSettings = Configuration.GetSection(nameof(MongoDbSettings)).Get<MongoDbSettings>();
-
+            var identityServiceSettings = Configuration.GetSection(nameof(IdentityServerSettings)).Get<IdentityServerSettings>();
+            
             services.AddDefaultIdentity<ApplicationUser>()
                 .AddRoles<ApplicationRoles>()
                 .AddMongoDbStores<ApplicationUser, ApplicationRoles, Guid>
                 (
                     mongoDbSettings.ConnectionString,
                     serviceSettings.ServiceName
-                ); 
+                );
 
+            services.AddIdentityServer(options =>
+                {
+                    options.Events.RaiseErrorEvents = true;
+                    options.Events.RaiseFailureEvents = true;
+                    options.Events.RaiseSuccessEvents = true;
+                })
+                .AddAspNetIdentity<ApplicationUser>()
+                .AddInMemoryApiScopes(identityServiceSettings.ApiScopes)
+                .AddInMemoryClients(identityServiceSettings.Clients)
+                .AddInMemoryIdentityResources(identityServiceSettings.IdentityResources)
+                .AddDeveloperSigningCredential();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -60,6 +73,8 @@ namespace Tinkr.Identity.Service
 
             app.UseRouting();
 
+            app.UseIdentityServer();
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

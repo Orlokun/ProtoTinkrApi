@@ -164,3 +164,14 @@ C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\D
 C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
 C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
 C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\IdentityModel.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\IdentityServer4.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\IdentityServer4.AspNetIdentity.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\IdentityServer4.Storage.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\oguer\Documents\WS\Tinkr\TinkrIdentity\src\Tinkr.Identity.Service\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
